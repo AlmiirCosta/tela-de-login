@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(" https://picsum.photos/1600/900?random=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+h1{
+    font-family: "poppins", serif;
+    font-size: 36px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input input::placeholder{
+    color: #fff;
+}
+
+.input img{
+    position: absolute;
+    right: 20px;
+    top: 25%;
+}
+
+.input a{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 4px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.input a:hover{
+    text-decoration: underline;
+}
+
+#submit-button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgba(135, 33, 230, 0.726);
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+
+}
+
+#submit-button:hover{
+    background-color: rgba(145, 75, 209, 0.705);
+}
+
+#register{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+#register p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    
+}
+#register p a{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#register p a:hover{
+    text-decoration: underline;
+}
